@@ -9,11 +9,18 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     app:layout_behavior="@string/appbar_scrolling_view_behavior"
+<<<<<<< HEAD
     tools:context="com.example.s1zhou.testproject.MainActivity"
     tools:showIn="@layout/activity_main">
 
     <TextView
         android:id = "@+id/tv1"
+=======
+    tools:context="com.example.apple.test_project.MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+>>>>>>> 9ec1aa507928e86a2ece496c76079be623ab3a9a
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Hello World!" />
