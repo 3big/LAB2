@@ -2,17 +2,11 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
-<<<<<<< HEAD
-    buildToolsVersion "19.1.0"
 
-    defaultConfig {
-        applicationId "com.example.s1zhou.testproject"
-=======
     buildToolsVersion "23.0.3"
 
     defaultConfig {
         applicationId "com.example.apple.test_project"
->>>>>>> 9ec1aa507928e86a2ece496c76079be623ab3a9a
         minSdkVersion 9
         targetSdkVersion 23
         versionCode 1
@@ -29,11 +23,7 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
-<<<<<<< HEAD
-    compile 'com.android.support:appcompat-v7:23.3.0'
-    compile 'com.android.support:design:23.3.0'
-=======
+
     compile 'com.android.support:appcompat-v7:23.2.1'
     compile 'com.android.support:design:23.2.1'
->>>>>>> 9ec1aa507928e86a2ece496c76079be623ab3a9a
 }
